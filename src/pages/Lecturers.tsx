@@ -84,7 +84,7 @@ const Lecturers = () => {
           </CardContent>
         </Card>
 
-        {/* Lecturers Table */}
+        {/* Lecturers Table view  */}
         <Card>
           <CardHeader>
             <CardTitle>Lecturers ({filteredLecturers.length})</CardTitle>
