@@ -126,6 +126,12 @@ const Login = () => {
               </Button>
             </form>
 
+            <br/>
+
+            <Button type="submit" className="w-full" disabled={loading}>
+                {loading ? "Creating Account..." : "Sign Up"}
+              </Button>
+
             <div className="mt-6">
               <p className="text-sm text-muted-foreground mb-3">Demo Accounts:</p>
               <div className="grid grid-cols-2 gap-2">
